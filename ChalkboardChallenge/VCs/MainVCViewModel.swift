@@ -41,8 +41,9 @@ struct MainVCViewModel {
    }
 
    
-   func configure(_ view: MainVC) {
-      view.title = Strings.mainVCTitle
+   func configure(_ vc: MainVC) {
+      vc.title = Strings.mainVCTitle
+      vc.view.backgroundColor = .white
       //TODO: implement other appearance settings - common colour theme etc.
    }
    
@@ -50,7 +51,7 @@ struct MainVCViewModel {
    mutating func updateUsers(with newUsers: [User]) {
       self.users = newUsers.map{.user($0)}
       // to support writing downloaded data back to data source
-      // use if time to provide data caching, load at startup, and a "refresh" from API capability
+      //TODO: if time use to provide data caching, load at startup, and a "refresh" from API capability
       dataSource.replaceUsers(with: newUsers)      
       }
 

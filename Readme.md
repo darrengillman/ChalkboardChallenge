@@ -9,6 +9,12 @@ Run App
 Click "download data" prompt to fetch from API and display.
 Tap any summary item to get to the detail screen
 
+## Next steps / Incomplete items
+
+1. Complete UI - currently basic UI implemented due to lack of time
+2. Improved error handling on downloads
+
+
 ## Assumptions
 1. API will return valid data & no null.  So the demo app doesn't have to have optionals scattered throughout the data structure or spend time coding error handling / customer decoders
 

@@ -56,9 +56,12 @@ class MainVC: UIViewController {
    }
    
    func displayUser(_ user: User) {
-      
+      let detailVC = UserDetailVC()
+      detailVC.viewModel = userDetailVCViewModel(user: user)
+      detailVC.modalPresentationStyle = .fullScreen
+      detailVC.isModalInPresentation = true
+      navigationController?.present(detailVC, animated: true)
    }
-   
 }
 
 //MARK:- TableView methods; delegate and diffable data source

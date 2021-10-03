@@ -28,6 +28,8 @@
 		952D13AB2709AF35000F2A59 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D13AA2709AF35000F2A59 /* SessionManager.swift */; };
 		952D13AD2709B071000F2A59 /* URL + extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D13AC2709B071000F2A59 /* URL + extn.swift */; };
 		952D13AF2709B456000F2A59 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D13AE2709B456000F2A59 /* Config.swift */; };
+		952D13B12709BFB2000F2A59 /* UserDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D13B02709BFB2000F2A59 /* UserDetailVC.swift */; };
+		952D13B32709BFDA000F2A59 /* UserDetailVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D13B22709BFDA000F2A59 /* UserDetailVCViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		952D13AA2709AF35000F2A59 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		952D13AC2709B071000F2A59 /* URL + extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + extn.swift"; sourceTree = "<group>"; };
 		952D13AE2709B456000F2A59 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		952D13B02709BFB2000F2A59 /* UserDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVC.swift; sourceTree = "<group>"; };
+		952D13B22709BFDA000F2A59 /* UserDetailVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVCViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 			children = (
 				952D1364270999CC000F2A59 /* MainVC.swift */,
 				952D139727099CBA000F2A59 /* MainVCViewModel.swift */,
+				952D13B02709BFB2000F2A59 /* UserDetailVC.swift */,
+				952D13B22709BFDA000F2A59 /* UserDetailVCViewModel.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -350,7 +356,9 @@
 				952D139A27099EDF000F2A59 /* Data.swift in Sources */,
 				952D1361270999CC000F2A59 /* AppDelegate.swift in Sources */,
 				952D139627099C84000F2A59 /* DataSource.swift in Sources */,
+				952D13B12709BFB2000F2A59 /* UserDetailVC.swift in Sources */,
 				952D13A52709A4B2000F2A59 /* UIView + Extn.swift in Sources */,
+				952D13B32709BFDA000F2A59 /* UserDetailVCViewModel.swift in Sources */,
 				952D139C2709A0CD000F2A59 /* Result.swift in Sources */,
 				952D139827099CBA000F2A59 /* MainVCViewModel.swift in Sources */,
 				952D13AD2709B071000F2A59 /* URL + extn.swift in Sources */,

@@ -9,4 +9,5 @@ import Foundation
 
 enum Strings {
    static let mainVCTitle = "Birthdays"
+   static let backButtonTitle = "GO BACK"
 }
