@@ -22,6 +22,8 @@ struct User: Codable, Equatable, Hashable {
       var initials: String {
          (!first.isEmpty ? String(first.first!) : "") + (!last.isEmpty ? String(last.first!) : "")
       }
+      
+      var fullName: String { "\(first) \(last)" }
    }
    
    struct DOB: Codable, Equatable, Hashable {
@@ -37,7 +39,7 @@ struct User: Codable, Equatable, Hashable {
          df.dateStyle = .short
          return df
       }()
-      
+
       static let dateErrorStr = "prefers to be ageless"
       
       let date: String

@@ -87,7 +87,7 @@ extension MainVC: UITableViewDelegate {
                return cell
             case .user(let user):
                let cell = tableView.dequeueReusableCell(withIdentifier: UserCell.cellID, for: indexPath) as! UserCell
-               cell.textLabel?.text = "\(user.identity.title) \(user.identity.first) \(user.identity.last)"
+               cell.configure(with: user)
                return cell
          }
       })
