@@ -13,7 +13,7 @@ Tap any summary item to get to the detail screen
 
 ## Approach
 
-1. All code written from scratch other than any of my common extensions, which will be in the Helper-Extensions.swift file.  I see no point in demonstrating gluing together lots of third party libraries.
+1. All code written from scratch other than any of my common extensions, which will be in the Extensions group.  I see no point in demonstrating gluing together lots of third party libraries.
 
 2. All UI will be in code rather than storyboard (I much prefer the control code provides
 
@@ -24,3 +24,7 @@ Tap any summary item to get to the detail screen
 5. All data is provided in initial API response.  No check of header data for paging etc.
 
 Start 09:00 Oct 3
+
+
+## Issues faced in Challenge
+ 1. XCode threw a fit and lost its reference to info.plist.  Good 10 mins lost fixing this. 
