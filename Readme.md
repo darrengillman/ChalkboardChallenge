@@ -17,4 +17,10 @@ Tap any summary item to get to the detail screen
 
 2. All UI will be in code rather than storyboard (I much prefer the control code provides
 
+3. REST API used for the challenge
+
+4. PAW third party app used to examine API response and determine JSON structure
+
+5. All data is provided in initial API response.  No check of header data for paging etc.
+
 Start 09:00 Oct 3
