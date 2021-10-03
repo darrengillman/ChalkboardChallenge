@@ -7,11 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
+   
+   var viewModel: MainVCViewModel!
 
    override func viewDidLoad() {
       super.viewDidLoad()
-      // Do any additional setup after loading the view.
+      title = "Birthdays"
    }
 
 
