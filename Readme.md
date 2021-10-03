@@ -1,12 +1,17 @@
 # Read Me
 # Chalkboard Challenge App
 
-## Usage
+## Usage
 Developed/Compiled in XCode 13 Beta 5
+
 Developed in Beta 5 as reluctant to install release version of XCode 13 due to other ongoing work 
+
 Target iOS 14.0 and above
+
 Run App in iOS simulator or on device
+
 Click "download data" prompt to fetch from API and display.
+
 Tap any summary item to get to the detail screen
 
 ## Next steps if time allowed
@@ -41,7 +46,11 @@ Tap any summary item to get to the detail screen
 
 ## Contact Details
 Darren Gillman
+
 e: darren@gillman.org.uk
+
 t: 07770 661594
+
 blog (although not updated for a long time!): darrengillman.com
+
 SO profile: https://stackoverflow.com/users/3218273/flanker 
