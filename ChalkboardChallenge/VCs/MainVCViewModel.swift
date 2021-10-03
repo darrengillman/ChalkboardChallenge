@@ -30,12 +30,7 @@ struct MainVCViewModel {
    
    let dataSource: DataSource
    
-   var users : [UserModel] {
-      ///  `didSet` to support writing downloaded data back to data source - use if time to provide data caching, load at startup, and a "refresh" from API capability
-      didSet {
-         dataSource.replaceUsers(with: users.compactMap{$0.user})
-      }
-   }
+   private (set) var users : [UserModel]
    
    
    init(with dataSource: DataSource) {
@@ -50,4 +45,13 @@ struct MainVCViewModel {
       view.title = Strings.mainVCTitle
       //TODO: implement other appearance settings - common colour theme etc.
    }
+   
+   
+   mutating func updateUsers(with newUsers: [User]) {
+      self.users = newUsers.map{.user($0)}
+      // to support writing downloaded data back to data source
+      // use if time to provide data caching, load at startup, and a "refresh" from API capability
+      dataSource.replaceUsers(with: newUsers)      
+      }
+
 }

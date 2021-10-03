@@ -3,6 +3,7 @@
 
 ## Usage
 Compile in XCode 13
+Actually developed in Beta 5 as unwilling to install release version of XCode due to other ongoing work 
 Target iOS 14.0 and above
 Run App
 Click "download data" prompt to fetch from API and display.
@@ -27,4 +28,4 @@ Start 09:00 Oct 3
 
 
 ## Issues faced in Challenge
- 1. XCode threw a fit and lost its reference to info.plist.  Good 10 mins lost fixing this. 
+ 1. XCode threw a fit and lost its reference to info.plist.  Good 10+ mins lost fixing this. 

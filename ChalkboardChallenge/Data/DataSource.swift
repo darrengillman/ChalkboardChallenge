@@ -12,11 +12,11 @@ class DataSource {
 
    func getUsers() -> [User] {
       
-      //TODO: delete test data loader when downloading built!
-      
-      users = (try? JSONDecoder().decode(Results.self, from: Data(TestData.json.utf8)).results) ?? []
-       
-      // end of dummy data
+//      //TODO: delete test data loader when downloading built!
+//      
+//      users = (try? JSONDecoder().decode(Results.self, from: Data(TestData.json.utf8)).results) ?? []
+//       
+//      // end of dummy data
       
       
       return users
